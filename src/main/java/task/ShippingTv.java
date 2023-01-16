@@ -11,10 +11,14 @@ import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.questions.Text;
 import ui.AmazonElectronicsPage;
 import ui.AmazonHomePage;
-import utils.TxtGenerate;
+
+
+import javax.swing.*;
+import java.io.FileWriter;
+import java.io.File;
 
 import static ui.ItemDetails.ABOUT_THIS_ITEM_TEXT;
-import static utils.Constants.TEXT;
+
 
 
 public class ShippingTv implements Task {
@@ -34,7 +38,6 @@ public class ShippingTv implements Task {
         actor.attemptsTo(Click.on(AmazonElectronicsPage.SORT_BY_LIST));
         actor.attemptsTo(Click.on(AmazonElectronicsPage.HIGH_TO_LOW_OPTION));
         actor.attemptsTo(Wait.aSecond(1));
-     //   actor.attemptsTo(Click.on(AmazonElectronicsPage.TV_SECOND_OPTION));
         actor.attemptsTo(Click.on(AmazonElectronicsPage.TV_SECOND_OPTION2));
         actor.attemptsTo(Wait.aSecond(2));
         actor.attemptsTo(SwitchToNewWindow.switchToNewTab());
@@ -42,17 +45,27 @@ public class ShippingTv implements Task {
         actor.attemptsTo(Scroll.to(ABOUT_THIS_ITEM_TEXT));
 
         String txt = Text.of(ABOUT_THIS_ITEM_TEXT).viewedBy(actor).resolve();
-      //  String txt1 = Text.of(ABOUT_THIS_ITEM_TEXT).viewedBy(actor).asString();
         System.out.println("-----------------------------------------------------");
         System.out.println(txt);
         System.out.println("-----------------------------------------------------");
 
-         actor.remember(TEXT,txt);
+        try {
 
-        actor.attemptsTo(TxtGenerate.file(txt));
+            File f = new File("C:/Users/Diego Ramirez/Documents/Proyectos/AmazonStore/src/test/resources/filesgenerates/doc.txt");
+            if (!f.exists()) {
+                f.createNewFile();
+            }
+
+            FileWriter file = new FileWriter("C:/Users/Diego Ramirez/Documents/Proyectos/AmazonStore/src/test/resources/filesgenerates/doc.txt");
+            file.write(txt);
+            file.close();
+
+        }  catch (Exception e){
+                JOptionPane.showMessageDialog(null,"error is this one part"+e);
+        }
 
 
-     }
+    }
     public static ShippingTv user(){
         return new ShippingTv();
     }
