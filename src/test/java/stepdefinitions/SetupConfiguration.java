@@ -20,9 +20,5 @@ public class SetupConfiguration {
     public void prepareStage() {
 
         UserWeb = Actor.named("The user");
-
      }
-
-
-
 }

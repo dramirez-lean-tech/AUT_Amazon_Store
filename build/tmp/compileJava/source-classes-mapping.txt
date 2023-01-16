@@ -17,7 +17,7 @@ ui/AmazonElectronicsPage.java
  ui.AmazonElectronicsPage
 utils/Constants.java
  utils.Constants
-utils/TxtGenerate.java
- utils.TxtGenerate
 task/ShippingTv.java
  task.ShippingTv
+utils/TxtGenerate.java
+ utils.TxtGenerate
