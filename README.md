@@ -1,4 +1,5 @@
 # AUT_Amazon_Store
+<<<<<<< HEAD
 
 ## General Information
 This project is about the automation of the Amazon store page.
@@ -40,8 +41,4 @@ src/test/java/runners/Runner.java
   ```
     gradle :experiment_a --tests "runners.Pre_PostTestRunner" :aggregate 
    ```
-
-
-
-
 
