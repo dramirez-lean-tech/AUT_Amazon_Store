@@ -47,7 +47,7 @@ public class ShippingTv implements Task {
         System.out.println(txt);
         System.out.println("-----------------------------------------------------");
 
-        actor.remember(TEXT,txt);
+         actor.remember(TEXT,txt);
 
         actor.attemptsTo(TxtGenerate.file(txt));
 
