@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.Runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-Q3D5HJT" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/shopping.feature:6 ?[0m# Scenario
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m1 passed?[0m)
+0m44.154s
+
+java.lang.NullPointerException
+	at net.serenitybdd.screenplay.InstrumentedTask.isInstrumented(InstrumentedTask.java:69)
+	at net.serenitybdd.screenplay.Actor.shouldNotReport(Actor.java:189)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:172)
+	at task.ShippingTv.performAs(ShippingTv.java:49)
+	at task.ShippingTv$ByteBuddy$efPz7IKI.performAs$accessor$h1Zqncza(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at task.ShippingTv$ByteBuddy$efPz7IKI.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
+	at stepdefinitions.ShoppingUserStepDefinition.the_user_wants_to_buy_a_product(ShoppingUserStepDefinition.java:28)
+	at ?.the user wants to buy a product(src/test/resources/features/shopping.feature:8)
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: user shopping
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Scenario
+-------------------------------------------------------------------(user-shopping;scenario)
+]]></system-err>
+</testsuite>

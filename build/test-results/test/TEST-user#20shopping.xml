@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="user shopping" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-01-13T23:26:51" hostname="DESKTOP-Q3D5HJT" time="43.715">
+  <properties/>
+  <testcase name="Scenario" classname="user shopping" time="43.715">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at net.serenitybdd.screenplay.InstrumentedTask.isInstrumented(InstrumentedTask.java:69)
+	at net.serenitybdd.screenplay.Actor.shouldNotReport(Actor.java:189)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:172)
+	at task.ShippingTv.performAs(ShippingTv.java:49)
+	at task.ShippingTv$ByteBuddy$efPz7IKI.performAs$accessor$h1Zqncza(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at task.ShippingTv$ByteBuddy$efPz7IKI.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
+	at stepdefinitions.ShoppingUserStepDefinition.the_user_wants_to_buy_a_product(ShoppingUserStepDefinition.java:28)
+	at ✽.the user wants to buy a product(src/test/resources/features/shopping.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[-----------------------------------------------------
+About this item
+Resolution : 4K Ultra HD (3840 x 2160) Resolution || Refresh Rate : 100 Hertz
+Connectivity: 4 HDMI ports to connect set top box || Blu-ray speakers or a gaming console || 2 USB ports to connect hard drives or other USB devices
+Sound: 60 Watts Output - 4.2.2 Ch|| Powerful Speakers with Dolby Atmos || Surround Sound || Active Voice Amplifier || Adaptive Sound+
+Smart TV Features : Mirroring || Tap View ||Multi-View || Music Wall || Mobile Camera Support || Wireless Dex || Auto Game Mode (ALLM) || Game Motion Plus || Dynamic Black EQ || Surround Sound || Super Ultra Wide Game View ||Mini Map Zoom || FreeSync Premium Pro || HGiG
+Display: One Billion Color || PQI 4600 || 100% Colour Volume with Quantum Dot || Wide Viewing Angle || AI Upscale || Neo Quantum Processor 4K || Quantum Matrix Technology || Motion Xcelerator Turbo Pro || Real Depth Enhancer || LED Clear Motion
+Warranty Information: 1 year comprehensive warranty plus additional 1 years on panel by brand from date of invoice
+Installation: TV Table stand is not included in the box with this model. customer may ask for Table Top Stand or Wall Mount which will be provided to the customer at the time of installation, please directly call Samsung support on [Please visit brand website for tollfree numbers] and provide product's model name as well as seller's details mentioned on the invoice
+Easy Returns: This product is eligible for replacement within 10 days of delivery in case of any product defects, damage or features not matching the description
+› See more product details
+-----------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 26308
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 13, 2023 6:26:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Scenario
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP The user shipping tv
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+]]></system-err>
+</testsuite>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class user shopping</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class user shopping</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; user shopping</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">43.715s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Scenario"></a>
+<h3 class="failures">Scenario</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at net.serenitybdd.screenplay.InstrumentedTask.isInstrumented(InstrumentedTask.java:69)
+	at net.serenitybdd.screenplay.Actor.shouldNotReport(Actor.java:189)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:172)
+	at task.ShippingTv.performAs(ShippingTv.java:49)
+	at task.ShippingTv$ByteBuddy$efPz7IKI.performAs$accessor$h1Zqncza(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at task.ShippingTv$ByteBuddy$efPz7IKI.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
+	at stepdefinitions.ShoppingUserStepDefinition.the_user_wants_to_buy_a_product(ShoppingUserStepDefinition.java:28)
+	at ✽.the user wants to buy a product(src/test/resources/features/shopping.feature:8)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Scenario</td>
+<td class="failures">43.715s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>-----------------------------------------------------
+About this item
+Resolution : 4K Ultra HD (3840 x 2160) Resolution || Refresh Rate : 100 Hertz
+Connectivity: 4 HDMI ports to connect set top box || Blu-ray speakers or a gaming console || 2 USB ports to connect hard drives or other USB devices
+Sound: 60 Watts Output - 4.2.2 Ch|| Powerful Speakers with Dolby Atmos || Surround Sound || Active Voice Amplifier || Adaptive Sound+
+Smart TV Features : Mirroring || Tap View ||Multi-View || Music Wall || Mobile Camera Support || Wireless Dex || Auto Game Mode (ALLM) || Game Motion Plus || Dynamic Black EQ || Surround Sound || Super Ultra Wide Game View ||Mini Map Zoom || FreeSync Premium Pro || HGiG
+Display: One Billion Color || PQI 4600 || 100% Colour Volume with Quantum Dot || Wide Viewing Angle || AI Upscale || Neo Quantum Processor 4K || Quantum Matrix Technology || Motion Xcelerator Turbo Pro || Real Depth Enhancer || LED Clear Motion
+Warranty Information: 1 year comprehensive warranty plus additional 1 years on panel by brand from date of invoice
+Installation: TV Table stand is not included in the box with this model. customer may ask for Table Top Stand or Wall Mount which will be provided to the customer at the time of installation, please directly call Samsung support on [Please visit brand website for tollfree numbers] and provide product's model name as well as seller's details mentioned on the invoice
+Easy Returns: This product is eligible for replacement within 10 days of delivery in case of any product defects, damage or features not matching the description
+› See more product details
+-----------------------------------------------------
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 26308
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 13, 2023 6:26:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Scenario
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP The user shipping tv
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at Jan 13, 2023 6:27:37 PM</p>
+</div>
+</div>
+</body>
+</html>
