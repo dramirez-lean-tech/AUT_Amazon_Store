@@ -1,9 +1,6 @@
 package utils;
 
-import net.serenitybdd.core.annotations.findby.By;
-import org.mockito.internal.matchers.CapturesArguments;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -20,6 +17,7 @@ public class MyWebDriverFactory {
     public WebDriver onPage() {
         myWebDriver.manage().window().maximize();
         myWebDriver.get("https://www.amazon.in/");
+        myWebDriver.manage().deleteAllCookies();
         return myWebDriver;
     }
 

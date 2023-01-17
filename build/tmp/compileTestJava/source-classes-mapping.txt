@@ -1,6 +1,6 @@
-runners/Runner.java
- runners.Runner
 stepdefinitions/SetupConfiguration.java
  stepdefinitions.SetupConfiguration
+runners/Runner.java
+ runners.Runner
 stepdefinitions/ShoppingUserStepDefinition.java
  stepdefinitions.ShoppingUserStepDefinition

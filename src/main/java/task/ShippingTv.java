@@ -29,7 +29,9 @@ public class ShippingTv implements Task {
 
 
         actor.attemptsTo(Click.on(AmazonHomePage.MENU));
+        actor.attemptsTo(Wait.aSecond(1));
         actor.attemptsTo(Click.on(AmazonHomePage.TV_APPPLIANCES_ELECTRONICS_OPTION));
+        actor.attemptsTo(Wait.aSecond(1));
         actor.attemptsTo(Click.on(AmazonHomePage.TELEVISIONS_OPTION));
         actor.attemptsTo(Wait.aSecond(2));
         actor.attemptsTo(Scroll.to(AmazonElectronicsPage.BRANDS_SAMSUNG_CB));
@@ -38,7 +40,7 @@ public class ShippingTv implements Task {
         actor.attemptsTo(Click.on(AmazonElectronicsPage.SORT_BY_LIST));
         actor.attemptsTo(Click.on(AmazonElectronicsPage.HIGH_TO_LOW_OPTION));
         actor.attemptsTo(Wait.aSecond(1));
-        actor.attemptsTo(Click.on(AmazonElectronicsPage.TV_SECOND_OPTION2));
+        actor.attemptsTo(Click.on(AmazonElectronicsPage.TV_SECOND_OPTION));
         actor.attemptsTo(Wait.aSecond(2));
         actor.attemptsTo(SwitchToNewWindow.switchToNewTab());
         actor.attemptsTo(Wait.aSecond(3));

@@ -1,5 +1,4 @@
 # AUT_Amazon_Store
-<<<<<<< HEAD
 
 ## General Information
 This project is about the automation of the Amazon store page.
