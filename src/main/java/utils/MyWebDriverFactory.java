@@ -3,6 +3,8 @@ package utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
@@ -30,7 +32,7 @@ public class MyWebDriverFactory {
       public static WebDriver getMyWebDriver() {
         String webdriverstr = System.getProperty("serenity.driver.name");
         if (webdriverstr == null) {
-            webdriverstr = "chrome";
+            webdriverstr = "edge";
         }
         switch (webdriverstr) {
             case "firefox":
@@ -44,6 +46,11 @@ public class MyWebDriverFactory {
                 chropts.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
                 chropts.setHeadless(false);
                 return new ChromeDriver(chropts);
+            case "edge":
+                System.setProperty("webdriver.edge.driver", "src/test/resources/drivers/msedgedriver.exe");
+                EdgeOptions edgepts = new EdgeOptions();
+                edgepts.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+                return new EdgeDriver(edgepts);
             default:
                 throw new RuntimeException("Unsupported webdriver: " + webdriverstr);
         }

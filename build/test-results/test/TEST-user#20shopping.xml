@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="user shopping" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-18T15:18:44" hostname="DESKTOP-Q3D5HJT" time="42.819">
+<testsuite name="user shopping" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-18T16:28:34" hostname="DESKTOP-Q3D5HJT" time="41.712">
   <properties/>
-  <testcase name="Scenario" classname="user shopping" time="42.819"/>
+  <testcase name="Scenario" classname="user shopping" time="41.712"/>
   <system-out><![CDATA[-----------------------------------------------------
 About this item
 Resolution : 4K Ultra HD (3840 x 2160) Resolution || Refresh Rate : 100 Hertz
@@ -15,11 +15,14 @@ Easy Returns: This product is eligible for replacement within 10 days of deliver
 › See more product details
 -----------------------------------------------------
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 23964
+  <system-err><![CDATA[Starting Microsoft Edge WebDriver 109.0.1518.55 (354a05280ee672695ea1b299aab94b38bb4777b6) on port 39490
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
 Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jan 18, 2023 10:18:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jan 18, 2023 11:28:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

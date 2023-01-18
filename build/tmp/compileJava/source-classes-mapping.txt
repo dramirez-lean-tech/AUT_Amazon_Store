@@ -1,23 +1,23 @@
-utils/FitTime.java
- utils.FitTime
- utils.FitTime$1
-ui/ItemDetails.java
- ui.ItemDetails
-utils/MyWebDriverFactory.java
- utils.MyWebDriverFactory
-utils/TxtGenerate.java
- utils.TxtGenerate
-utils/Constants.java
- utils.Constants
-task/SwitchToNewWindow.java
- task.SwitchToNewWindow
-ui/AmazonHomePage.java
- ui.AmazonHomePage
 ui/AmazonElectronicsPage.java
  ui.AmazonElectronicsPage
 task/ShippingTv.java
  task.ShippingTv
+utils/MyWebDriverFactory.java
+ utils.MyWebDriverFactory
+utils/TxtGenerate.java
+ utils.TxtGenerate
 questions/Answer.java
  questions.Answer
+task/SwitchToNewWindow.java
+ task.SwitchToNewWindow
+ui/AmazonHomePage.java
+ ui.AmazonHomePage
 Interaction/Waiting.java
  Interaction.Waiting
+utils/Constants.java
+ utils.Constants
+ui/ItemDetails.java
+ ui.ItemDetails
+utils/FitTime.java
+ utils.FitTime
+ utils.FitTime$1
