@@ -1,6 +1,6 @@
 package questions;
 
-import Interaction.Wait;
+import Interaction.Waiting;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
@@ -17,7 +17,7 @@ public class Answer implements Question<String> {
     @Override
     public String answeredBy(Actor actor) {
 
-        actor.attemptsTo(Wait.aSecond(2));
+        actor.attemptsTo(Waiting.toSecond(2));
         return Text.of(target).viewedBy(actor).asString();
 
 

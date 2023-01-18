@@ -36,7 +36,7 @@ src/test/java/runners/Runner.java
 ```
 ###Test Case
 - The user wants to shop for the Samsung TV from the Amazon store website
-> the test case, approximate run time 44 seconds
+> the test case, approximate 44 seconds run time 
   ```
     gradle :experiment_a --tests "runners.Pre_PostTestRunner" :aggregate 
    ```

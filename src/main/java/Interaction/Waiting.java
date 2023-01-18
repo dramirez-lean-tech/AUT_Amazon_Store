@@ -10,10 +10,10 @@ import java.util.concurrent.TimeUnit;
 import static utils.FitTime.succefull;
 
 
-public class Wait implements Interaction {
+public class Waiting implements Interaction {
     private int seconds;
 
-    public Wait(int seconds) {
+    public Waiting(int seconds) {
         this.seconds = seconds;
     }
 
@@ -24,8 +24,8 @@ public class Wait implements Interaction {
 
     }
 
-    public static Wait aSecond(int seconds) {
-        return Tasks.instrumented(Wait.class, seconds);
+    public static Waiting toSecond(int seconds) {
+        return Tasks.instrumented(Waiting.class, seconds);
     }
 
 }
