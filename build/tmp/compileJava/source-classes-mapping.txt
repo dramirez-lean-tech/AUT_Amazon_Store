@@ -1,11 +1,12 @@
 ui/AmazonElectronicsPage.java
  ui.AmazonElectronicsPage
-task/ShippingTv.java
- task.ShippingTv
-utils/MyWebDriverFactory.java
- utils.MyWebDriverFactory
-utils/TxtGenerate.java
- utils.TxtGenerate
+ui/ItemDetails.java
+ ui.ItemDetails
+utils/Constants.java
+ utils.Constants
+utils/FitTime.java
+ utils.FitTime
+ utils.FitTime$1
 questions/Answer.java
  questions.Answer
 task/SwitchToNewWindow.java
@@ -14,10 +15,9 @@ ui/AmazonHomePage.java
  ui.AmazonHomePage
 Interaction/Waiting.java
  Interaction.Waiting
-utils/Constants.java
- utils.Constants
-ui/ItemDetails.java
- ui.ItemDetails
-utils/FitTime.java
- utils.FitTime
- utils.FitTime$1
+task/ShippingTv.java
+ task.ShippingTv
+utils/DataFakeGenerate.java
+ utils.DataFakeGenerate
+utils/MyWebDriverFactory.java
+ utils.MyWebDriverFactory

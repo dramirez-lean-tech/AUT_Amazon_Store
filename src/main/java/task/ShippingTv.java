@@ -11,10 +11,9 @@ import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.questions.WebElementQuestion;
 import net.serenitybdd.screenplay.waits.Wait;
-import net.serenitybdd.screenplay.waits.WaitUntil;
-import org.openqa.selenium.WebElement;
 import ui.AmazonElectronicsPage;
 import ui.AmazonHomePage;
+import utils.DataFakeGenerate;
 
 
 import javax.swing.*;
@@ -50,7 +49,6 @@ public class ShippingTv implements Task {
         actor.attemptsTo(SwitchToNewWindow.switchToNewTab());
         actor.attemptsTo(Waiting.toSecond(3));
         actor.attemptsTo(Scroll.to(ABOUT_THIS_ITEM_TEXT));
-
         String txt = Text.of(ABOUT_THIS_ITEM_TEXT).viewedBy(actor).resolve();
         System.out.println("-----------------------------------------------------");
         System.out.println(txt);
@@ -63,7 +61,7 @@ public class ShippingTv implements Task {
                 f.createNewFile();
             }
 
-            FileWriter file = new FileWriter("C:/Users/Diego Ramirez/Documents/Proyectos/AmazonStore/src/test/resources/filesgenerates/doc.txt");
+            FileWriter file = new FileWriter("C:/Users/Diego Ramirez/Documents/Proyectos/AmazonStore/src/test/resources/filesgenerates/"+DataFakeGenerate.docName()+".txt");
             file.write(txt);
             file.close();
 

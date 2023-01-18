@@ -46,6 +46,7 @@ The user wants to shop for the Samsung TV from the Amazon store website
 The following are valid for the used
 - Chrome
 - Firefox
+- Edge
 ***
 ##SO
 - Windows 10
