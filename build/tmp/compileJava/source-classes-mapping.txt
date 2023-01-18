@@ -1,8 +1,8 @@
 utils/FitTime.java
  utils.FitTime
  utils.FitTime$1
-task/ShippingTv.java
- task.ShippingTv
+utils/MyWebDriverFactory.java
+ utils.MyWebDriverFactory
 Interaction/Wait.java
  Interaction.Wait
 utils/TxtGenerate.java
@@ -19,5 +19,5 @@ ui/ItemDetails.java
  ui.ItemDetails
 ui/AmazonElectronicsPage.java
  ui.AmazonElectronicsPage
-utils/MyWebDriverFactory.java
- utils.MyWebDriverFactory
+task/ShippingTv.java
+ task.ShippingTv

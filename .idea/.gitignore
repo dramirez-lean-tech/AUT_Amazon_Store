@@ -9,3 +9,6 @@
 /AmazonStore/gradlew.bat
 /AmazonStore/settings.gradle
 /AmazonStore/src/
+
+# does not ignore the site file
+/AmazonStore/target/site

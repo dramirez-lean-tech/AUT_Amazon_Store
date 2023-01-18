@@ -22,11 +22,11 @@ Screenplay design pattern using serenity BDD
 ```
 src/test/java/stepdefinitions/SetupConfiguration.java
 ```
-- Feature : Test scenario using Gherkin language
+- Feature : Test scenario using Gherkin language using cucumber
 ```
   src/test/resources/features/shopping.feature
 ```
-- Runners : Classes used to run the test scenarios using cucumber
+- Runners : Classes used to run the test scenarios 
 ```
 src/test/java/runners/Runner.java
 ```

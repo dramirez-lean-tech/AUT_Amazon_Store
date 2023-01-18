@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="user shopping" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-17T16:45:40" hostname="DESKTOP-Q3D5HJT" time="43.291">
+<testsuite name="user shopping" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-17T17:20:49" hostname="DESKTOP-Q3D5HJT" time="42.049">
   <properties/>
-  <testcase name="Scenario" classname="user shopping" time="43.291"/>
+  <testcase name="Scenario" classname="user shopping" time="42.049"/>
   <system-out><![CDATA[-----------------------------------------------------
 About this item
 Resolution : 4K Ultra HD (3840 x 2160) Resolution || Refresh Rate : 100 Hertz
@@ -15,11 +15,11 @@ Easy Returns: This product is eligible for replacement within 10 days of deliver
 › See more product details
 -----------------------------------------------------
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 28885
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 42473
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 17, 2023 11:45:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 17, 2023 12:20:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
