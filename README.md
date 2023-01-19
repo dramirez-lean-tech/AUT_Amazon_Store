@@ -4,14 +4,11 @@
 This project is about the automation of the Amazon store page.
 ***
 ## Requirements
-- Java
+- Java 1.8.0
 - JDK 17
-- Gradle
+- Gradle 6.8.3
 ***
-## Versions
-serenityCoreVersion = ""
-***
-##Installation
+## Installation
 ```
 gradle build
 ```
@@ -22,7 +19,7 @@ Screenplay design pattern using serenity BDD
 ```
 src/test/java/stepdefinitions/SetupConfiguration.java
 ```
-- Feature : Test scenario using Gherkin language using cucumber
+- Feature : Test scenario using Gherkin language with cucumber
 ```
   src/test/resources/features/shopping.feature
 ```
@@ -30,14 +27,19 @@ src/test/java/stepdefinitions/SetupConfiguration.java
 ```
 src/test/java/runners/Runner.java
 ```
-##Run Test
+## Run Test
+The user wants to shop for the Samsung TV from the Amazon store website
+- the test case, approximate 44 seconds run time 
 ```
- gradle :clean :test --tests "runners.shopping" :aggregate
+gradle :clean :test --tests "runners.Runner" :aggregate
 ```
-###Test Case
-- The user wants to shop for the Samsung TV from the Amazon store website
-> the test case, approximate run time 44 seconds
-  ```
-    gradle :experiment_a --tests "runners.Pre_PostTestRunner" :aggregate 
-   ```
-
+***  
+## Browsers
+The following are valid for the used
+- Google Chrome Version 109.0.5414.75 (64-bit)
+- Firefox 109.0 (32-bit)
+- Edge Version 109.0.1518.55 (64-bit)
+***
+## SO
+- Windows 10
+- Windows 11
