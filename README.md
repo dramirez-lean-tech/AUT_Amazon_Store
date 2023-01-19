@@ -8,7 +8,7 @@ This project is about the automation of the Amazon store page.
 - JDK 17
 - Gradle 6.8.3
 ***
-##Installation
+## Installation
 ```
 gradle build
 ```
@@ -27,24 +27,19 @@ src/test/java/stepdefinitions/SetupConfiguration.java
 ```
 src/test/java/runners/Runner.java
 ```
-##Run Test
-```
- gradle :clean :test --tests "runners.shopping" :aggregate
-```
-##Test Case
+## Run Test
 The user wants to shop for the Samsung TV from the Amazon store website
-
 - the test case, approximate 44 seconds run time 
-  ```
-    gradle :experiment_a --tests "runners.Pre_PostTestRunner" :aggregate 
-   ```
+```
+gradle :clean :test --tests "runners.Runner" :aggregate
+```
 ***  
-##Browsers
+## Browsers
 The following are valid for the used
 - Google Chrome Version 109.0.5414.75 (64-bit)
 - Firefox 109.0 (32-bit)
 - Edge Version 109.0.1518.55 (64-bit)
 ***
-##SO
+## SO
 - Windows 10
 - Windows 11
