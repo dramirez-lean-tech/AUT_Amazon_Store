@@ -3,9 +3,6 @@
 ## General Information
 This project is about the automation of the Amazon store page.
 ***
-##Tools
-- IntelliJ
-- Gradle
 ## Requirements
 - Java 1.8.0
 - JDK 17
@@ -44,9 +41,9 @@ The user wants to shop for the Samsung TV from the Amazon store website
 ***  
 ##Browsers
 The following are valid for the used
-- Chrome
-- Firefox
-- Edge
+- Google Chrome Version 109.0.5414.75 (64-bit)
+- Firefox 109.0 (32-bit)
+- Edge Version 109.0.1518.55 (64-bit)
 ***
 ##SO
 - Windows 10

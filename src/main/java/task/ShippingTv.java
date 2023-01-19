@@ -13,13 +13,8 @@ import net.serenitybdd.screenplay.questions.WebElementQuestion;
 import net.serenitybdd.screenplay.waits.Wait;
 import ui.AmazonElectronicsPage;
 import ui.AmazonHomePage;
-import utils.DataFakeGenerate;
 import utils.GenerateFile;
 
-
-import javax.swing.*;
-import java.io.FileWriter;
-import java.io.File;
 
 import static ui.ItemDetails.ABOUT_THIS_ITEM_TEXT;
 
