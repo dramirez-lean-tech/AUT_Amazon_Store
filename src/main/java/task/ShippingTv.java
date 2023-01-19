@@ -14,6 +14,7 @@ import net.serenitybdd.screenplay.waits.Wait;
 import ui.AmazonElectronicsPage;
 import ui.AmazonHomePage;
 import utils.DataFakeGenerate;
+import utils.GenerateFile;
 
 
 import javax.swing.*;
@@ -54,20 +55,7 @@ public class ShippingTv implements Task {
         System.out.println(txt);
         System.out.println("-----------------------------------------------------");
 
-        try {
-
-            File f = new File("C:/Users/Diego Ramirez/Documents/Proyectos/AmazonStore/src/test/resources/filesgenerates/doc.txt");
-            if (!f.exists()) {
-                f.createNewFile();
-            }
-
-            FileWriter file = new FileWriter("C:/Users/Diego Ramirez/Documents/Proyectos/AmazonStore/src/test/resources/filesgenerates/"+DataFakeGenerate.docName()+".txt");
-            file.write(txt);
-            file.close();
-
-        }  catch (Exception e){
-                JOptionPane.showMessageDialog(null,"error is this one part"+e);
-        }
+       actor.attemptsTo(GenerateFile.file(txt));
 
 
     }

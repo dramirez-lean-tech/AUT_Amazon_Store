@@ -15,9 +15,11 @@ ui/AmazonHomePage.java
  ui.AmazonHomePage
 Interaction/Waiting.java
  Interaction.Waiting
-task/ShippingTv.java
- task.ShippingTv
-utils/DataFakeGenerate.java
- utils.DataFakeGenerate
 utils/MyWebDriverFactory.java
  utils.MyWebDriverFactory
+utils/DataFakeGenerate.java
+ utils.DataFakeGenerate
+task/ShippingTv.java
+ task.ShippingTv
+utils/GenerateFile.java
+ utils.GenerateFile
