@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="user shopping" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-19T14:56:43" hostname="DESKTOP-Q3D5HJT" time="40.542">
+<testsuite name="user shopping" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-19T15:05:40" hostname="DESKTOP-Q3D5HJT" time="37.563">
   <properties/>
-  <testcase name="Scenario" classname="user shopping" time="40.542"/>
+  <testcase name="Scenario" classname="user shopping" time="37.563"/>
   <system-out><![CDATA[-----------------------------------------------------
 About this item
 Resolution : 4K Ultra HD (3840 x 2160) Resolution || Refresh Rate : 100 Hertz
@@ -15,24 +15,23 @@ Easy Returns: This product is eligible for replacement within 10 days of deliver
 › See more product details
 -----------------------------------------------------
 ]]></system-out>
-  <system-err><![CDATA[1674140204294	geckodriver	INFO	Listening on 127.0.0.1:38050
-1674140204959	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DIEGOR~1\\AppData\\Local\\Temp\\rust_mozprofileWRihH3"
-1674140205526	Marionette	INFO	Marionette enabled
+  <system-err><![CDATA[1674140740843	geckodriver	INFO	Listening on 127.0.0.1:4444
+1674140741470	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DIEGOR~1\\AppData\\Local\\Temp\\rust_mozprofileYrGzAE"
+1674140741759	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1674140205531	Marionette	INFO	Listening on port 55838
-Read port: 55838
-1674140205672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DIEGOR~1\\AppData\\Local\\Temp\\rust_mozprofileWRihH3\\search.json.mozlz4", (void 0)))
-Jan 19, 2023 9:56:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1674140741763	Marionette	INFO	Listening on port 56071
+Read port: 56071
+1674140741874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DIEGOR~1\\AppData\\Local\\Temp\\rust_mozprofileYrGzAE\\search.json.mozlz4", (void 0)))
+Jan 19, 2023 10:05:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://www.amazon.in/gp/browse.html?node=1389396031&ref_=nav_em_sbc_tvelec_television_0_2_9_2 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://www.amazon.in/s?bbn=1389396031&rh=n%3A1389396031%2Cp_89%3ASamsung&dc&qid=1674140214&rnid=3837712031&ref=lp_1389396031_nr_p_89_2 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://www.amazon.in/s?i=electronics&bbn=1389396031&rh=n%3A1389396031%2Cp_89%3ASamsung&s=price-desc-rank&dc&ds=v1%3ACPHk71NylistIzgrETCtpqCEyEcAOQK9MT1yRaOVKis&qid=1674140222&rnid=3837712031&ref=sr_st_price-desc-rank line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://www.amazon.in/Samsung-inches-Ultra-Smart-QA85QN90BAKXXL/dp/B09Y65HV6N/ref=sr_1_2?qid=1674140228&refinements=p_89%3ASamsung&rnid=3837712031&s=electronics&sr=1-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1674140242825	Marionette	INFO	Stopped listening on port 55838
+JavaScript warning: https://www.amazon.in/s?bbn=1389396031&rh=n%3A1389396031%2Cp_89%3ASamsung&dc&qid=1674140750&rnid=3837712031&ref=lp_1389396031_nr_p_89_2 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/s?i=electronics&bbn=1389396031&rh=n%3A1389396031%2Cp_89%3ASamsung&s=price-desc-rank&dc&ds=v1%3AjAonh26c50WSiOu%2FI%2B109HZSAqpm%2BLXjPu3TBAbkBH8&qid=1674140756&rnid=3837712031&ref=sr_st_price-desc-rank line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/Samsung-inches-Ultra-Smart-QA85QN90BAKXXL/dp/B09Y65HV6N/ref=sr_1_2?qid=1674140761&refinements=p_89%3ASamsung&rnid=3837712031&s=electronics&sr=1-2 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674140776635	Marionette	INFO	Stopped listening on port 56071
 Dynamically enable window occlusion 1
-[Parent 17768, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
 WARNING: A blocker encountered an error while we were waiting.
           Blocker:  Waiting for ping task
           Phase: TelemetryController: Waiting for pending ping activity

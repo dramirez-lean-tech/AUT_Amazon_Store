@@ -22,12 +22,12 @@ public class GenerateFile implements Interaction {
     public <T extends Actor> void performAs(T actor) {
         try {
 
-            File f = new File("C:/Users/Diego Ramirez/Documents/Proyectos/AmazonStore/src/test/resources/filesgenerates/doc.txt");
+            File f = new File("../AmazonStore/src/test/resources/filesgenerates/doc.txt");
             if (!f.exists()) {
                 f.createNewFile();
             }
 
-            FileWriter file = new FileWriter("C:/Users/Diego Ramirez/Documents/Proyectos/AmazonStore/src/test/resources/filesgenerates/"+DataFakeGenerate.docName()+".txt");
+            FileWriter file = new FileWriter("../AmazonStore/src/test/resources/filesgenerates/"+DataFakeGenerate.docName()+".txt");
             file.write(txt);
             file.close();
 
@@ -37,7 +37,7 @@ public class GenerateFile implements Interaction {
         }
     }
 
-    public static GenerateFile file  (String txt){
+    public static GenerateFile file(String txt){
         return Tasks.instrumented(GenerateFile.class, txt);
     }
 }
