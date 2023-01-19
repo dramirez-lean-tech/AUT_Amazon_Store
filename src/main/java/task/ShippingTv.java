@@ -31,7 +31,7 @@ public class ShippingTv implements Task {
         actor.attemptsTo(Waiting.toSecond(1));
         actor.attemptsTo(Click.on(AmazonHomePage.TV_APPPLIANCES_ELECTRONICS_OPTION));
         actor.attemptsTo(Wait.until(WebElementQuestion.the(AmazonHomePage.TELEVISIONS_OPTION),
-                WebElementStateMatchers.isClickable()).forNoLongerThan(1).seconds());
+                WebElementStateMatchers.isClickable()).forNoLongerThan(5).seconds());
         actor.attemptsTo(Click.on(AmazonHomePage.TELEVISIONS_OPTION));
         actor.attemptsTo(Waiting.toSecond(2));
         actor.attemptsTo(Scroll.to(AmazonElectronicsPage.BRANDS_SAMSUNG_CB));
