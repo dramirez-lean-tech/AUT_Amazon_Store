@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="user shopping" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-19T19:29:18" hostname="DESKTOP-Q3D5HJT" time="45.046">
   <properties/>
   <testcase name="Scenario" classname="user shopping" time="45.046"/>
+=======
+<testsuite name="user shopping" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-17T17:20:49" hostname="DESKTOP-Q3D5HJT" time="42.049">
+  <properties/>
+  <testcase name="Scenario" classname="user shopping" time="42.049"/>
+>>>>>>> 5a753953877a28aa92156755bd6c2d99d9353db0
   <system-out><![CDATA[-----------------------------------------------------
 About this item
 Resolution : 4K Ultra HD (3840 x 2160) Resolution || Refresh Rate : 100 Hertz
@@ -15,6 +21,7 @@ Easy Returns: This product is eligible for replacement within 10 days of deliver
 › See more product details
 -----------------------------------------------------
 ]]></system-out>
+<<<<<<< HEAD
   <system-err><![CDATA[1674156559363	geckodriver	INFO	Listening on 127.0.0.1:45062
 1674156559977	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DIEGOR~1\\AppData\\Local\\Temp\\rust_mozprofilemGbxnY"
 1674156560337	Marionette	INFO	Marionette enabled
@@ -24,6 +31,13 @@ Read port: 51000
 1674156560486	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DIEGOR~1\\AppData\\Local\\Temp\\rust_mozprofilemGbxnY\\search.json.mozlz4", (void 0)))
 Jan 19, 2023 2:29:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+=======
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 42473
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 17, 2023 12:20:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+>>>>>>> 5a753953877a28aa92156755bd6c2d99d9353db0
 INFO: Detected dialect: W3C
 JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://www.amazon.in/gp/browse.html?node=1389396031&ref_=nav_em_sbc_tvelec_television_0_2_9_2 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

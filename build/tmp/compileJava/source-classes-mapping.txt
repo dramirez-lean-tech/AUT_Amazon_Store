@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ui/AmazonElectronicsPage.java
  ui.AmazonElectronicsPage
 task/ShippingTv.java
@@ -8,6 +9,17 @@ utils/GenerateFile.java
  utils.GenerateFile
 utils/MyWebDriverFactory.java
  utils.MyWebDriverFactory
+=======
+utils/FitTime.java
+ utils.FitTime
+ utils.FitTime$1
+utils/MyWebDriverFactory.java
+ utils.MyWebDriverFactory
+Interaction/Wait.java
+ Interaction.Wait
+utils/TxtGenerate.java
+ utils.TxtGenerate
+>>>>>>> 5a753953877a28aa92156755bd6c2d99d9353db0
 questions/Answer.java
  questions.Answer
 task/SwitchToNewWindow.java
@@ -20,6 +32,13 @@ utils/Constants.java
  utils.Constants
 ui/ItemDetails.java
  ui.ItemDetails
+<<<<<<< HEAD
 utils/FitTime.java
  utils.FitTime
  utils.FitTime$1
+=======
+ui/AmazonElectronicsPage.java
+ ui.AmazonElectronicsPage
+task/ShippingTv.java
+ task.ShippingTv
+>>>>>>> 5a753953877a28aa92156755bd6c2d99d9353db0

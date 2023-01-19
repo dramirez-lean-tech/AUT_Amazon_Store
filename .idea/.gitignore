@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/AmazonStore/.gradle
+/AmazonStore/build/
+/AmazonStore/build.gradle
+/AmazonStore/gradle/
+/AmazonStore/gradlew/
+/AmazonStore/gradlew.bat
+/AmazonStore/settings.gradle
+/AmazonStore/src/
+
+# does not ignore the site file
+/AmazonStore/target/site
